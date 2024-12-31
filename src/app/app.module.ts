@@ -9,10 +9,13 @@ import { SectionhotelsComponent } from './sectionhotels/sectionhotels.component'
 import { FooterComponent } from './footer/footer.component';
 import { OfferComponent } from './offer/offer.component';
 import { HeaderComponent } from './header/header.component';
+<<<<<<< HEAD
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+=======
+>>>>>>> 77998fbcbfaac656cd172dd48addf86de74afc47
 
 
 @NgModule({
@@ -23,6 +26,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FooterComponent,
     OfferComponent,
     HeaderComponent,
+<<<<<<< HEAD
     LoginComponent,
     RegisterComponent,
 
@@ -40,6 +44,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       progressBar: true,                // afficher une barre de progression
       enableHtml: true                  // permet l'utilisation de HTML dans le toast
     })  ],
+=======
+
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
+  ],
+>>>>>>> 77998fbcbfaac656cd172dd48addf86de74afc47
   providers: [],
   bootstrap: [AppComponent]
 })
