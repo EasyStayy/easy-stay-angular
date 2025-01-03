@@ -9,6 +9,8 @@ import { SectionhotelsComponent } from './sectionhotels/sectionhotels.component'
 import { FooterComponent } from './footer/footer.component';
 import { OfferComponent } from './offer/offer.component';
 import { HeaderComponent } from './header/header.component';
+import { GestionReservationComponent } from './gestion-reservation/gestion-reservation.component';
+import { GestionHotelComponent } from './gestion-hotel/gestion-hotel.component';
 
 
 @NgModule({
@@ -19,6 +21,8 @@ import { HeaderComponent } from './header/header.component';
     FooterComponent,
     OfferComponent,
     HeaderComponent,
+    GestionReservationComponent,
+    GestionHotelComponent,
 
   ],
   imports: [
